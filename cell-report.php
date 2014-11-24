@@ -51,6 +51,6 @@ add_action('plugins_loaded', 'cell_report_init');
 ---------------------------------------------------------------
 */
 
-	// include_once ('pdf/pdf.php');
+	include_once ('pdf/pdf.php');
 
 	include_once ('csv.php');
